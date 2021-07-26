@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>WeatherApp</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Weather App</h1>
+    </header>
+
+<div class= "container row main">
+
+  <div id= "searchDiv" class="col-lg-3">
+    <input id="searchBar" class="form-control form-control-lg" type="text" placeholder="City Name">
+    <button id= "searchButton" type="button" class="btn btn-primary btn-lg btn-block">Search</button>
+    <br>
+      <div id= "historyDisplay">
+      </div>
+  </div>
+
+
+  <div id= "weatherDiv" class= "col-sm-9">
+    <div class="media">
+      <div class="media-body">
+        <h2 class="mt-0">Today's Weather. </h2>
+        <p>Local Time: <span id= "localTime"></span></p>
+        <p>Temp: <span id = "temp" ></span></p>
+        <p>Wind: <span id = "wind" ></span></p>
+        <p>Humidity: <span id = "humidity"> %</span></p>
+      </div>
+    </div>
+
+    <div class= "container row">
+
+    <div class="card bg-light mb-2" style="max-width: 14rem;">
+        <div class="card-header">Date</div>
+        <div class="card-body" id= "card1">
+          <h5 class="card-title">Icon</h5>
+          <p class="card-text test"></p>
+          <p class="card-text test"></p>
+          <p class="card-text test"></p>
+        </div>
+    </div>
+
+    <div class="card bg-light mb-2" style="max-width: 14rem;">
+        <div class="card-header">Date</div>
+        <div class="card-body">
+          <h5 class="card-title">Icon</h5>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+        </div>
+    </div>
+
+    <div class="card bg-light mb-2" style="max-width: 14rem;">
+        <div class="card-header">Date</div>
+        <div class="card-body">
+          <h5 class="card-title">Icon</h5>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+        </div>
+    </div>
+    
+    <div class="card bg-light mb-2" style="max-width: 14rem;">
+        <div class="card-header">Date</div>
+        <div class="card-body">
+          <h5 class="card-title">Icon</h5>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+        </div>
+    </div>
+
+    <div class="card bg-light mb-2" style="max-width: 14rem;">
+        <div class="card-header">Date</div>
+        <div class="card-body">
+          <h5 class="card-title">Icon</h5>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+          <p class="card-text"></p>
+        </div>
+    </div>
+
+     </div>
+  </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src= script.js></script>
+  </body>
+</html>
