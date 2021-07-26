@@ -1,7 +1,7 @@
-# scheduleApp
+# Weather App
 
-Hello! This project involved using html, css, and javascript as well as some third party apis/libraries (bootstrap and moment.js) in order to create a business hours scheduler that stores any notes in local storage, displays the current time at the top of the page, and changes color by the hour (red for current hour, green for future, and red for past)
+Hello! This project involved using html, css, and javascript as well as the open weather API in order to create a website that allows you to search for the weather for any city in the world. The app uses local storage to save searches, and there are data validation functions in place to ensure you can only search for valid cities. 
 
 
 
-![Here is a screenshot of my site.](./assets/screenShot.png)
+![Here is a screenshot of my site.](./assets/weatherApp.png)
