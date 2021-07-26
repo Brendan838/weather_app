@@ -38,11 +38,19 @@ window.onload = function() {
 
 //search button and search functionality
 searchButton.addEventListener("click", function (){
-var search = searchBar.value
+var search = searchBar.value;
+if (search == ""){
+alert("Please enter a city name.")
+return
+}
 getApi(search)
 saveSearch(search)
+if(searchBar.value !== null){
 createSingleButton();
-
+}
+else {
+return
+}
 })
 
 // function to save search to local storage
